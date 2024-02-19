@@ -1,0 +1,87 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  * {
+      -webkit-transition: opacity 0.1s ease-in-out;
+      -moz-transition: opacity 0.1s ease-in-out;
+      -o-transition: opacity 0.1s ease-in-out;
+      -ms-transition: opacity 0.1s ease-in-out;    
+      transition: opacity 0.1s ease-in-out;
+    }
+  
+  #YourCount {
+      text-align: center;
+      font-size: 4em;
+  
+  }
+  
+  #YourUp {
+    display: block;
+      text-align: center;
+      border-bottom: 1px solid #999;
+      padding: 10px 0;
+  }
+
+  .btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width:100%;
+}
+  
+  #YourDown {
+    display: block;
+      text-align: center;
+      border-top: 1px solid #999;
+      padding: 10px 0;
+  }
+  
+  #YourUp, #YourDown, #YourUp, #YourDown {
+      opacity: 0.5;
+  }
+  
+  #reset {
+      display: block;
+      font-size: 3em;
+      line-height: 1.3em;
+      text-align: center;
+      height: 65px;
+      width: 65px;
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
+      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+      color: #fdba00;
+      text-shadow: 0 1px 0 #000000;
+      opacity: 0.2;
+      background-color: #000000;
+  
+      -webkit-border-top-left-radius: 30px;
+      -moz-border-radius-topleft: 30px;
+      border-top-left-radius: 30px;
+  }
+  
+  #commander {
+      display: block;
+      height: 65px;
+      width: 65px;
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+    
+      font-size: 3em;
+      line-height: 1.3em;
+      text-align: center;  
+      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+      color: #fdba00;
+      text-shadow: 0 1px 0 #000000;
+      opacity: 0.2;
+      background-color: #000000;
+  
+      -webkit-border-top-right-radius: 30px;
+      -moz-border-radius-topright: 30px;
+      border-top-right-radius: 30px;
+  }

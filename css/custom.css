@@ -1,0 +1,41 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  * {
+      -webkit-transition: opacity 0.1s ease-in-out;
+      -moz-transition: opacity 0.1s ease-in-out;
+      -o-transition: opacity 0.1s ease-in-out;
+      -ms-transition: opacity 0.1s ease-in-out;    
+      transition: opacity 0.1s ease-in-out;
+    }
+
+#container {
+    text-align: center;
+    width:auto;
+    height:auto;
+    margin: 0 0 10px 0;
+}
+
+#text-container {
+    margin: auto;
+    width: 55%;
+    border: 1px solid rgb(32, 32, 32);
+    padding: 10px;
+}
+
+#magiccards {
+    text-align: left;
+    margin: 0 auto;
+}
+@media (min-width:960px) 
+    {
+        #text-container {
+            margin: auto;
+            width: 80%;
+            border: 1px solid rgb(32, 32, 32);
+            padding: 10px;
+        }
+    }

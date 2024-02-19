@@ -1,0 +1,17 @@
+{
+    "name": "My MTG Tools",
+    "short_name": "MyMTG.tools",
+    "theme_color": "#348d2c",
+    "background_color": "#240900",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "https://mymtg.tools",
+    "description": "Tools for Magic: The Gathering",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "https://mymtg.tools/img/icon512_maskable.png",
+            "sizes": "512x512"
+        }
+    ]
+}
