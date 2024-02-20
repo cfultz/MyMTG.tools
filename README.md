@@ -4,6 +4,7 @@ This is a repository for users to submit bug reports about the website [MyMTG.to
 
 ![Chicken](img/judgement.jpg)
 
+
 # Code
 
 All code is avaliable for you the users to look at and take apart, repurpose, etc. Please abide by the MIT License attached to this repository as well as the following disclaimer:
