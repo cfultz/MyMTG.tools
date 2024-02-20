@@ -38,30 +38,7 @@ function show(data) {
           <p class="card-text"><small class="text-body-secondary">${r.type_line}</p></small>
           <p class="card-text">${r.oracle_text}</p>
           <p class="card-text">
-
-          <div class="row">
-          <div class="col">
-          Scryfall
-          </div>
-          <div class="col">
-          Purchase
-          </div>
-          <div class="col">
-          Wizards
-          </div>
-          </div>
-          <div class="row">
-          <div class="col">
-          <a href="${r.scryfall_uri}#rulings" target="_blank"><button type="button" class="btn btn-outline-secondary">Rulings</button></a>
-          </div>
-          <div class="col">
-          <a href="${r.purchase_uris.tcgplayer}" target="_blank"><button type="button" class="btn btn-outline-secondary">TGCPlayer.com</button></a>
-          </div>
-          <div class="col">
-          <a href="${r.related_uris.gatherer}" target="_blank"><button type="button" class="btn btn-outline-secondary">Gatherer</button></a>
-          </div>
         </div>      
-
           </p>
           <p class="card-text"><small class="text-body-secondary">Released ${r.released_at}</small></p>
           </div>
